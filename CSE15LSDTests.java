@@ -5,7 +5,7 @@ public class CSE15LSDTests {
     @Test
     public void test1() {
         int[] arr1 = {1, 2, 3, 4, 5, 1};
-        assertEquals(3, CSE15LSDProgram.maxNumIdx(arr1));
+        assertEquals(4, CSE15LSDProgram.maxNumIdx(arr1));
     }
 
     @Test
